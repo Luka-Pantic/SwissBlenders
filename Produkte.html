@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produkte</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      position: relative;
+      min-height: 100vh;
+      background-image: url(images/beans2.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background: rgba(31, 26, 23, 0.45);
+      pointer-events: none;
+      z-index: -1;
+    }
+  </style>
+  <script src="product.js" defer></script>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  <header class="">
+    <nav class="navbar navbar-expand-lg position-relative main-navbar">
+      <div class="container-fluid">
+
+        <!--Logo-->
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logoPlaceholder.png" width="77" height="72">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Left -->
+        <ul class="navbar-nav me-auto align-items-center">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Produkte.html">Produkte</a>
+          </li>
+        </ul>
+
+        <!-- Centered Cart -->
+        <div class="navbar-cart-center">
+          <a href="#">
+            <img src="images/Shopping cart.svg" alt="Cart">
+          </a>
+        </div>
+
+        <!-- Right -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+
+            <li class="nav-item">
+              <a class="nav-link" href="UeberUns.html">Über Uns</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Kontakt.html">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+    <section>
+      <div class="container">
+        <div style="margin-top:190px;" class="row product-row">
+          <div class="col-4">
+            <div class="product-card">
+              <a href="Produktseite.html?id=kopi-luwak">
+                <img src="images/kopiLuwak/kopiLuwakWrapped.png" class="product-image" width="327" height="326">
+              </a>
+
+              <div class="product-overlay">
+                <h5>Kopi Luwak</h5>
+                <p>CHF 89.95</p>
+                <button class="btn btn-light">In den Warenkorb</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="product-card">
+              <a href="Produktseite.html?id=black-ivory">
+                <img src="images/imgPlaceholder.png" class="product-image" width="327" height="326">
+              </a>
+
+              <div class="product-overlay">
+                <h5>Black Ivory Coffee</h5>
+                <p>CHF 249.85</p>
+                <button class="btn btn-light">In den Warenkorb</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="product-card">
+              <a href="Produktseite.html?id=jacu-bird">
+                <img src="images/imgPlaceholder.png" class="product-image" width="327" height="326">
+              </a>
+              <div class="product-overlay">
+                <h5>Jacu Bird Coffee</h5>
+                <p>CHF 419.95</p>
+                <button class="btn btn-light">In den Warenkorb</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div style="margin-top:190px;" class="row product-row">
+          <div class="col-4">
+            <div class="product-card">
+              <a href="Produktseite.html?id=kona-coffee">
+                <img src="images/imgPlaceholder.png" class="product-image" width="327" height="326">
+              </a>
+              <div class="product-overlay">
+                <h5>Kona Coffee</h5>
+                <p>CHF 45.50</p>
+                <button class="btn btn-light">In den Warenkorb</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="product-card">
+              <a href="Produktseite.html?id=st-helena">
+                <img src="images/imgPlaceholder.png" class="product-image" width="327" height="326">
+              </a>
+
+              <div class="product-overlay">
+                <h5>St-Helena</h5>
+                <p>CHF 39.85</p>
+                <button class="btn btn-light">In den Warenkorb</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="product-card">
+              <a href="Produktseite.html?id=panama-geisha">
+                <img src="images/imgPlaceholder.png" class="product-image" width="327" height="326">
+              </a>
+              <div class="product-overlay">
+                <h5>Panama Geisha</h5>
+                <p>CHF 109.75</p>
+                <button class="btn btn-light">In den Warenkorb</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div style="margin-top:190px;" class="row product-row">
+          <div class="col-4">
+            <div class="product-card">
+              <a href="Produktseite.html?id=jamaica-blue-mountain">
+                <img src="images/imgPlaceholder.png" class="product-image" width="327" height="326">
+              </a>
+              <div class="product-overlay">
+                <h5>Jamaica Blue Mountain</h5>
+                <p>CHF 119.95</p>
+                <button class="btn btn-light">In den Warenkorb</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="product-card">
+              <a href="Produktseite.html?id=yemen-mocha">
+                <img src="images/imgPlaceholder.png" class="product-image" width="327" height="326">
+              </a>
+
+              <div class="product-overlay">
+                <h5>Yemen Mocha</h5>
+                <p>CHF 85.50</p>
+                <button class="btn btn-light">In den Warenkorb</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="product-card">
+              <a href="Produktseite.html?id=ethiopia-yirgacheffe">
+                <img src="images/imgPlaceholder.png" class="product-image" width="327" height="326">
+              </a>
+              <div class="product-overlay">
+                <h5>Ethiopia Yirgacheffe</h5>
+                <p>CHF 49.90</p>
+                <button class="btn btn-light">In den Warenkorb</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 footer-link">Home</a></li>
+      <li class="nav-item"><a href="Produkte.html" class="nav-link px-2 footer-link">Produkte</a></li>
+      <li class="nav-item"><a href="UeberUns.html" class="nav-link px-2 footer-link">Über Uns</a></li>
+      <li class="nav-item"><a href="Kontakt.html" class="nav-link px-2 footer-link">Kontakt</a></li>
+    </ul>
+    <p class="text-center footer-link">© 2025 Swiss Blenders</p>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <script src="js/myscripts.js"></script>
+  <script src="js/product.js" defer></script>
+</body>
+
+</html>

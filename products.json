@@ -1,0 +1,227 @@
+[
+    {
+        "id": "kopi-luwak",
+        "name": "Kopi Luwak",
+        "variants": [
+            {
+                "size": "250g",
+                "price": 89.95
+            },
+            {
+                "size": "500g",
+                "price": 179.90
+            }
+        ],
+        "image": "images/kopiLuwak/kopiLuwak.png",
+        "imageStory": "images/kopiLuwak/kopiLuwakStory.png",
+        "tag": "Rarität · Indonesien",
+        "description": "Ein Kaffee, der zu den exklusivsten der Welt gehört: die Bohnen werden von wilden Palmenzibetkatzen selektiv ausgesucht und durchlaufen eine besondere natürliche Fermentation, die den Geschmack außergewöhnlich weich, samtig und mit süßen Schokoladen- und Honignoten veredelt. Das Ergebnis ist eine vollmundige Tasse mit wenig Bitterkeit, die wahre Genießer begeistert.",
+        "story": "Tief im indonesischen Dschungel, wo feuchte Erde und reife Früchte den Duft der Nacht bestimmen, beginnt die Reise dieser Bohne. Wildlebende Zibetkatzen wählen instinktiv nur die süßesten Kaffeekirschen aus. Durch einen natürlichen Fermentationsprozess entsteht ein Kaffee von außergewöhnlicher Milde. Kopi Luwak ist kein Produkt der Eile, sondern ein Ergebnis von Geduld, Natur und Tradition.",
+        "details": {
+            "origin": "Indonesien",
+            "variety": "Arabica",
+            "process": "Natural (fermentiert)",
+            "taste": "Erdig, weich, schokoladig, wenig Bitterkeit"
+        }
+    },
+    {
+        "id": "black-ivory",
+        "name": "Black Ivory Coffee",
+        "variants": [
+            {
+                "size": "250g",
+                "price": 249.85
+            },
+            {
+                "size": "500g",
+                "price": 499.70
+            }
+        ],
+        "image": "images/black-ivory.png",
+        "imageStory": "images/kopiLuwakStory",
+        "tag": "Extrem selten · Thailand",
+        "description": "Ein Erlebnis für Entdecker: Arabica-Bohnen passiert durch den Verdauungstrakt von Elefanten, was dem Kaffee eine unglaublich glatte, milde Textur und subtile Noten von Schokolade, Malz und feinen Blüten verleiht. Durch den aufwendigen, seltenen Produktionsprozess entsteht eine Tasse, die Sanftheit und Komplexität vereint – ein echtes Highlight für luxuriösen Kaffeegenuss.",
+        "story": "Im Norden Thailands, zwischen Elefanten und üppiger Vegetation, entsteht einer der seltensten Kaffees der Welt. Arabica-Bohnen werden Teil eines einzigartigen natürlichen Prozesses, der Bitterstoffe abbaut und die Aromen sanft veredelt. Das Ergebnis ist ein Kaffee von beinahe seidiger Textur. Black Ivory steht für Respekt vor Tier, Mensch und Natur.",
+        "details": {
+            "origin": "Thailand",
+            "variety": "Arabica",
+            "process": "Natürliche Fermentation",
+            "taste": "Malzig, mild, komplex"
+        }
+    },
+    {
+        "id": "jacu-bird",
+        "name": "Jacu Bird Coffee",
+        "variants": [
+            {
+                "size": "250g",
+                "price": 419.95
+            },
+            {
+                "size": "500g",
+                "price": 839.90
+            }
+        ],
+        "image": "images/jacu-bird.png",
+        "imageStory": "images/kopiLuwakStory",
+        "tag": "Wildsammlung · Brasilien",
+        "description": "Dieser brasilianische Schatz entsteht aus Bohnen, die von der Jacu-Vogelart ausgewählt und natürlich fermentiert werden. Das ergibt ein nussig-süßes, vollmundiges Aroma mit Akzenten von Zimt, Ahornsirup und Haselnuss, gepaart mit einer angenehmen, weichen Säure. Perfekt für alle, die ein außergewöhnliches Geschmackserlebnis mit Charakter suchen.",
+        "story":"In den grünen Höhen Brasiliens wählen Jacu-Vögel die reifsten Kaffeekirschen aus. Was zurückbleibt, ist eine Bohne mit außergewöhnlicher Balance und Tiefe. Diese seltene Wildsammlung verbindet unberührte Natur mit traditioneller Handarbeit. Ein Kaffee, der den Charakter seines Ursprungs unverfälscht widerspiegelt.",
+        "details": {
+            "origin": "Brasilien",
+            "variety": "Arabica",
+            "process": "Natural",
+            "taste": "Nussig, karamellig, rund"
+        }
+    },
+    {
+        "id": "kona-coffee",
+        "name": "Kona Coffee",
+        "variants": [
+            {
+                "size": "250g",
+                "price": 45.50
+            },
+            {
+                "size": "500g",
+                "price": 91.00
+            }
+        ],
+        "image": "images/kona.png",
+        "imageStory": "images/kopiLuwakStory",
+        "tag": "Single Origin · Hawaii",
+        "description": "Ein Klassiker aus Hawaiis vulkanischen Hängen: handverlesene Arabica-Bohnen mit natürlicher Süße, zarter Schokoladennote und floralen Untertönen – elegant, balanciert und perfekt für den täglichen Genuss. Die mineralreichen Böden und kleinen Farmgrößen machen Kona-Kaffee zu einem premium Single-Origin-Erlebnis, das viele Kaffeekenner lieben.",
+        "story":"An den vulkanischen Hängen Hawaiis, wo Lavaerde und Meeresbrise aufeinandertreffen, wächst Kona Coffee in kleinen Parzellen. Jede Bohne reift langsam unter idealen Bedingungen. Die Farmer pflegen ihre Pflanzen oft seit Generationen. Kona ist ein Sinnbild für Handwerk, Herkunft und zeitlose Eleganz.",
+        "details": {
+            "origin": "Hawaii, USA",
+            "variety": "Arabica",
+            "process": "Washed",
+            "taste": "Mild, fruchtig, ausgewogen"
+        }
+    },
+    {
+        "id": "st-helena",
+        "name": "St. Helena Coffee",
+        "variants": [
+            {
+                "size": "250g",
+                "price": 39.85
+            },
+            {
+                "size": "500g",
+                "price": 79.70
+            }
+        ],
+        "image": "images/st-helena.png",
+        "imageStory": "images/kopiLuwakStory",
+        "tag": "Historisch · Atlantikinsel",
+        "description": "Aus der abgelegenen Atlantikinsel stammend, ist dieser Kaffee eine historische Rarität mit elegantem, blumig-zitrischem Profil und einer ausgewogenen, delikaten Säure. Er gilt als ein klassischer Genuss für Kenner, die neben Geschmack auch Geschichte und Exklusivität zu schätzen wissen.",
+        "story":"Auf einer abgelegenen Insel mitten im Atlantik wächst dieser historische Kaffee fernab der modernen Welt. Schon Napoleon soll ihn geschätzt haben. Das milde Klima und die vulkanischen Böden verleihen ihm seine feine, elegante Aromatik. St. Helena Coffee ist eine Reise in eine Zeit, in der Genuss noch Entdeckung bedeutete.",
+        "details": {
+            "origin": "St. Helena",
+            "variety": "Arabica",
+            "process": "Washed",
+            "taste": "Zitrus, floral, elegant"
+        }
+    },
+    {
+        "id": "panama-geisha",
+        "name": "Panama Geisha",
+        "image": "images/panama-geisha.png",
+        "imageStory": "images/kopiLuwakStory",
+        "tag": "Auction Lot · Panama",
+        "variants": [
+            {
+                "size": "250g",
+                "price": 109.75
+            },
+            {
+                "size": "500g",
+                "price": 219.50
+            }
+        ],
+        "description": "Ein Kaffee, der in Auktionen Rekorde bricht. Panama Geisha begeistert mit einer außergewöhnlich floralen Aromatik, die an Jasmin, Bergamotte und reife tropische Früchte erinnert. Seidig im Mundgefühl, komplex im Nachhall – ein Kaffee für Momente, in denen jede Tasse zelebriert wird.",
+        "story":"n den Nebelwäldern Panamas, verborgen zwischen hohen Bergen, gedeiht eine der berühmtesten Varietäten der Welt. Geisha-Kaffee wird mit äußerster Sorgfalt angebaut und oft nur in kleinen Lots geerntet. Seine florale Aromatik machte ihn zur Legende auf internationalen Auktionen. Jede Tasse ist ein stiller Luxusmoment.",
+        "details": {
+            "origin": "Panama",
+            "variety": "Geisha",
+            "process": "Washed",
+            "taste": "Jasmin, Bergamotte, tropische Früchte"
+        }
+    },
+    {
+        "id": "jamaica-blue-mountain",
+        "name": "Jamaica Blue Mountain",
+        "image": "images/blue-mountain.png",
+        "imageStory": "images/kopiLuwakStory",
+        "tag": "Legendary Origin · Jamaica",
+        "variants": [
+            {
+                "size": "250g",
+                "price": 119.95
+            },
+            {
+                "size": "500g",
+                "price": 239.90
+            }
+        ],
+        "description": "Legendär und elegant: Dieser Kaffee aus den nebelverhangenen Höhen Jamaikas ist bekannt für seine perfekte Balance, milde Säure und cremige Textur. Sanfte Noten von Nüssen, Kakao und Vanille machen ihn zu einem zeitlosen Klassiker für anspruchsvolle Genießer.",
+        "story":"Hoch oben in den Blue Mountains Jamaikas reifen diese Bohnen langsam im kühlen Nebel. Die Region ist streng reguliert, die Ernten klein und kostbar. Seit Jahrzehnten steht dieser Kaffee für Balance, Sanftheit und Perfektion. Ein Klassiker, der nie laut sein musste, um weltberühmt zu werden.",
+        "details": {
+            "origin": "Jamaica",
+            "variety": "Arabica",
+            "process": "Washed",
+            "taste": "Nussig, Kakao, Vanille"
+        }
+    },
+    {
+        "id": "yemen-mocha",
+        "name": "Yemen Mocha",
+        "image": "images/yemen-mocha.png",
+        "imageStory": "images/kopiLuwakStory",
+        "tag": "Heritage Coffee · Yemen",
+        "variants": [
+            {
+                "size": "250g",
+                "price": 85.50
+            },
+            {
+                "size": "500g",
+                "price": 171
+            }
+        ],
+        "description": "Ursprünglich, wild und unverwechselbar. Yemen Mocha entfaltet ein intensives, komplexes Aroma mit Noten von dunkler Schokolade, Trockenfrüchten und Gewürzen. Rustikal und zugleich elegant – ein Kaffee mit Geschichte, Tiefe und Charakter.",
+        "story":"Yemen gilt als eine der Wiegen des Kaffees. Auf steilen Terrassen wachsen die Bohnen unter rauen Bedingungen, fernab industrieller Landwirtschaft. Die Ernte erfolgt von Hand, die Aufbereitung folgt alten Traditionen. Yemen Mocha ist wild, komplex und tief – ein Kaffee mit Seele und Geschichte.",
+        "details": {
+            "origin": "Yemen",
+            "variety": "Heirloom Arabica",
+            "process": "Natural",
+            "taste": "Dunkle Schokolade, Trockenfrüchte, Gewürze"
+        }
+    },
+    {
+        "id": "ethiopia-yirgacheffe",
+        "name": "Ethiopia Yirgacheffe",
+        "image": "images/yirgacheffe.png",
+        "imageStory": "images/kopiLuwakStory",
+        "tag": "Single Origin · Ethiopia",
+        "variants": [
+            {
+                "size": "250g",
+                "price": 49.90
+            },
+            {
+                "size": "500g",
+                "price": 99.80
+            }
+        ],
+        "description": "Die Wiege des Kaffees in ihrer feinsten Form. Yirgacheffe überzeugt mit lebendiger Frische, floralen Nuancen und klaren Zitrusnoten. Leicht, elegant und aromatisch – ideal für alle, die Kaffee als feines Geschmackserlebnis verstehen.",
+        "story":"In den Hochlagen Äthiopiens, wo Kaffee seinen Ursprung hat, wächst Yirgacheffe in kleinen Gärten und wilden Wäldern. Die Bohnen werden sorgsam gewaschen, um ihre florale Klarheit zu bewahren. Dieser Kaffee erzählt von Frische, Leichtigkeit und der Ursprünglichkeit des Kaffeegenusses.",
+        "details": {
+            "origin": "Ethiopia",
+            "variety": "Arabica",
+            "process": "Washed",
+            "taste": "Zitrus, floral, Tee-artig"
+        }
+    }
+]
