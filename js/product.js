@@ -55,6 +55,9 @@ fetch("products.json")
             priceEl.textContent = `CHF ${selectedVariant.price.toFixed(2)}`;
         });
 
+        addToCart(product, variant);
+        alert("Produkt wurde zum Warenkorb hinzugefügt");
+
 
     })
     .catch(err => console.error("Fehler beim Laden der Produkte:", err));

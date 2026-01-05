@@ -56,11 +56,23 @@
 
         <!-- Centered Cart -->
         <div class="navbar-cart-center">
-          <a href="cart.html" class="cart-link">
+          <a href="#" id="cart-toggle" class="cart-link">
             <img src="images/Shopping cart.svg" alt="Cart">
             <span id="cart-count">0</span>
           </a>
+
+          <!-- Cart Dropdown -->
+          <div id="cart-dropdown" class="cart-dropdown hidden">
+            <h5>Warenkorb</h5>
+            <div id="cart-items"></div>
+
+            <div class="cart-footer">
+              <strong>Total: CHF <span id="cart-total">0.00</span></strong>
+              <button id="checkout-btn" class="btn btn-dark w-100 mt-2">Zur Kasse</button>
+            </div>
+          </div>
         </div>
+
 
         <!-- Right -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -236,7 +248,7 @@
     crossorigin="anonymous"></script>
   <script src="js/cart.js"></script>
   <script src="js/product.js"></script>
-  
+
 
 </body>
 
