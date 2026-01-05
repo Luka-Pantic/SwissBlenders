@@ -55,5 +55,9 @@ fetch("products.json")
             priceEl.textContent = `CHF ${selectedVariant.price.toFixed(2)}`;
         });
 
+
     })
     .catch(err => console.error("Fehler beim Laden der Produkte:", err));
+
+
+
