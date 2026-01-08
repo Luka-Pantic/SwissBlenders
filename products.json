@@ -37,8 +37,8 @@
                 "price": 499.70
             }
         ],
-        "image": "images/black-ivory.png",
-        "imageStory": "images/kopiLuwakStory",
+        "image": "images/blackIvory/blackIvory.png",
+        "imageStory": "images/blackIvory/blackIvoryStory.jpg",
         "tag": "Extrem selten · Thailand",
         "description": "Ein Erlebnis für Entdecker: Arabica-Bohnen passiert durch den Verdauungstrakt von Elefanten, was dem Kaffee eine unglaublich glatte, milde Textur und subtile Noten von Schokolade, Malz und feinen Blüten verleiht. Durch den aufwendigen, seltenen Produktionsprozess entsteht eine Tasse, die Sanftheit und Komplexität vereint – ein echtes Highlight für luxuriösen Kaffeegenuss.",
         "story": "Im Norden Thailands, zwischen Elefanten und üppiger Vegetation, entsteht einer der seltensten Kaffees der Welt. Arabica-Bohnen werden Teil eines einzigartigen natürlichen Prozesses, der Bitterstoffe abbaut und die Aromen sanft veredelt. Das Ergebnis ist ein Kaffee von beinahe seidiger Textur. Black Ivory steht für Respekt vor Tier, Mensch und Natur.",
@@ -62,8 +62,8 @@
                 "price": 839.90
             }
         ],
-        "image": "images/jacu-bird.png",
-        "imageStory": "images/kopiLuwakStory",
+        "image": "images/jacuBird/jacuBird.png",
+        "imageStory": "images/jacuBird/jacuBirdStory.jpg",
         "tag": "Wildsammlung · Brasilien",
         "description": "Dieser brasilianische Schatz entsteht aus Bohnen, die von der Jacu-Vogelart ausgewählt und natürlich fermentiert werden. Das ergibt ein nussig-süßes, vollmundiges Aroma mit Akzenten von Zimt, Ahornsirup und Haselnuss, gepaart mit einer angenehmen, weichen Säure. Perfekt für alle, die ein außergewöhnliches Geschmackserlebnis mit Charakter suchen.",
         "story":"In den grünen Höhen Brasiliens wählen Jacu-Vögel die reifsten Kaffeekirschen aus. Was zurückbleibt, ist eine Bohne mit außergewöhnlicher Balance und Tiefe. Diese seltene Wildsammlung verbindet unberührte Natur mit traditioneller Handarbeit. Ein Kaffee, der den Charakter seines Ursprungs unverfälscht widerspiegelt.",
@@ -87,8 +87,8 @@
                 "price": 91.00
             }
         ],
-        "image": "images/kona.png",
-        "imageStory": "images/kopiLuwakStory",
+        "image": "images/konaCoffee/konaCoffee.png",
+        "imageStory": "images/konaCoffee/konaCoffeeStory.jpg",
         "tag": "Single Origin · Hawaii",
         "description": "Ein Klassiker aus Hawaiis vulkanischen Hängen: handverlesene Arabica-Bohnen mit natürlicher Süße, zarter Schokoladennote und floralen Untertönen – elegant, balanciert und perfekt für den täglichen Genuss. Die mineralreichen Böden und kleinen Farmgrößen machen Kona-Kaffee zu einem premium Single-Origin-Erlebnis, das viele Kaffeekenner lieben.",
         "story":"An den vulkanischen Hängen Hawaiis, wo Lavaerde und Meeresbrise aufeinandertreffen, wächst Kona Coffee in kleinen Parzellen. Jede Bohne reift langsam unter idealen Bedingungen. Die Farmer pflegen ihre Pflanzen oft seit Generationen. Kona ist ein Sinnbild für Handwerk, Herkunft und zeitlose Eleganz.",
@@ -112,8 +112,8 @@
                 "price": 79.70
             }
         ],
-        "image": "images/st-helena.png",
-        "imageStory": "images/kopiLuwakStory",
+        "image": "images/stHelena/stHelena.png",
+        "imageStory": "images/stHelena/stHelenaStory.png",
         "tag": "Historisch · Atlantikinsel",
         "description": "Aus der abgelegenen Atlantikinsel stammend, ist dieser Kaffee eine historische Rarität mit elegantem, blumig-zitrischem Profil und einer ausgewogenen, delikaten Säure. Er gilt als ein klassischer Genuss für Kenner, die neben Geschmack auch Geschichte und Exklusivität zu schätzen wissen.",
         "story":"Auf einer abgelegenen Insel mitten im Atlantik wächst dieser historische Kaffee fernab der modernen Welt. Schon Napoleon soll ihn geschätzt haben. Das milde Klima und die vulkanischen Böden verleihen ihm seine feine, elegante Aromatik. St. Helena Coffee ist eine Reise in eine Zeit, in der Genuss noch Entdeckung bedeutete.",
@@ -127,8 +127,8 @@
     {
         "id": "panama-geisha",
         "name": "Panama Geisha",
-        "image": "images/panama-geisha.png",
-        "imageStory": "images/kopiLuwakStory",
+        "image": "images/panamaGeisha/panamaGeisha.png",
+        "imageStory": "images/panamaGeisha/panamaGeishaStory.jpg",
         "tag": "Auction Lot · Panama",
         "variants": [
             {
@@ -152,8 +152,8 @@
     {
         "id": "jamaica-blue-mountain",
         "name": "Jamaica Blue Mountain",
-        "image": "images/blue-mountain.png",
-        "imageStory": "images/kopiLuwakStory",
+        "image": "images/jamaicaBlueMountain/jamaicaBlueMountain.png",
+        "imageStory": "images/jamaicaBlueMountain/jamaicaBlueMountainStory.jpg",
         "tag": "Legendary Origin · Jamaica",
         "variants": [
             {
@@ -177,8 +177,8 @@
     {
         "id": "yemen-mocha",
         "name": "Yemen Mocha",
-        "image": "images/yemen-mocha.png",
-        "imageStory": "images/kopiLuwakStory",
+        "image": "images/yemenMocha/yemenMocha.png",
+        "imageStory": "images/yemenMocha/yemenMochaCoffeeStory.jpg",
         "tag": "Heritage Coffee · Yemen",
         "variants": [
             {
@@ -202,8 +202,8 @@
     {
         "id": "ethiopia-yirgacheffe",
         "name": "Ethiopia Yirgacheffe",
-        "image": "images/yirgacheffe.png",
-        "imageStory": "images/kopiLuwakStory",
+        "image": "images/ethiopia-yirgacheffe/ethiopiaYirgacheffe.png",
+        "imageStory": "images/ethiopia-yirgacheffe/ethiopiaYirgacheffeStory.jpg",
         "tag": "Single Origin · Ethiopia",
         "variants": [
             {

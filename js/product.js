@@ -56,11 +56,38 @@ fetch("products.json")
         });
 
         addToCart(product, variant);
-        alert("Produkt wurde zum Warenkorb hinzugefügt");
+       
 
 
     })
     .catch(err => console.error("Fehler beim Laden der Produkte:", err));
 
 
-
+// Listener für "In den Warenkorb"-Button auf der Produktseite
+document.addEventListener("DOMContentLoaded", () => {
+    const addToCartBtn = document.getElementById("productPageAddToCart");
+    const variantSelect = document.getElementById("variantSelect");
+    const priceEl = document.getElementById("price");
+    
+    if (addToCartBtn) {
+        addToCartBtn.addEventListener("click", () => {
+            // Hole die aktuellen Produktdaten
+            const params = new URLSearchParams(window.location.search);
+            const productId = params.get("id");
+            
+            if (!productId) {
+                alert("Produkt konnte nicht gefunden werden.");
+                return;
+            }
+            
+            // Hole die Größe aus dem Select
+            const selectedSize = variantSelect.options[variantSelect.selectedIndex].textContent;
+            
+            // Füge zum Warenkorb hinzu
+            addToCart(productId, selectedSize);
+            
+        });
+    }
+    
+    // ... bestehender Code für Variantenwechsel ...
+});

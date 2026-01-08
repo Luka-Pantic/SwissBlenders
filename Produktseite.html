@@ -4,27 +4,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
+  <title>Produktseite</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body class="d-flex flex-column min-vh-100">
   <header class="">
-    <nav class="navbar navbar-expand-lg position-relative">
+    <nav class="navbar navbar-expand-lg position-relative navbar-light-bg-light">
       <div class="container-fluid">
 
         <!--Logo-->
         <a class="navbar-brand" href="index.html">
-          <img src="images/logoPlaceholder.png" width="77" height="72">
+          <img src="images/logo.png" width="119" height="112">
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <!-- Left -->
         <ul class="navbar-nav me-auto align-items-center">
           <li class="nav-item">
@@ -35,29 +37,17 @@
           </li>
         </ul>
 
-       <!-- Centered Cart -->
+        <!-- Centered Cart -->
         <div class="navbar-cart-center">
-          <a href="#" id="cart-toggle" class="cart-link">
+          <a href="#" id="cart-toggle" class="cart-link" data-bs-toggle="modal" data-bs-target="#cartModal">
             <img src="images/Shopping cart.svg" alt="Cart">
             <span id="cart-count">0</span>
           </a>
-
-          <!-- Cart Dropdown -->
-          <div id="cart-dropdown" class="cart-dropdown hidden">
-            <h5>Warenkorb</h5>
-            <div id="cart-items"></div>
-
-            <div class="cart-footer">
-              <strong>Total: CHF <span id="cart-total">0.00</span></strong>
-              <button class="btn btn-dark w-100 mt-2">Zur Kasse</button>
-            </div>
-          </div>
         </div>
 
         <!-- Right -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
-
             <li class="nav-item">
               <a class="nav-link" href="UeberUns.html">Über Uns</a>
             </li>
@@ -69,6 +59,47 @@
 
       </div>
     </nav>
+    <!-- In allen HTML-Dateien, aktualisiertes Modal mit Mengensteuerung -->
+    <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header bg-light">
+            <h5 class="modal-title" id="cartModalLabel">
+              <i class="bi bi-cart3 me-2"></i>Dein Warenkorb
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-0">
+            <div id="cart-items" class="cart-items-container p-4">
+              <!-- Warenkorb-Items werden hier eingefügt -->
+            </div>
+
+            <div id="empty-cart-message" class="text-center py-5 px-4" style="display: none;">
+              <div class="empty-cart-icon mb-4">
+                <i class="bi bi-cart-x" style="font-size: 4rem; color: #dee2e6;"></i>
+              </div>
+              <h5 class="mb-3">Dein Warenkorb ist leer</h5>
+              <p class="text-muted mb-4">Füge Produkte hinzu, um sie hier zu sehen</p>
+              <button class="btn btn-outline-dark" data-bs-dismiss="modal">
+                <i class="bi bi-arrow-left me-2"></i>Weiter einkaufen
+              </button>
+            </div>
+          </div>
+          <div class="modal-footer bg-light">
+            <div class="w-100">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <span class="h5 mb-0">Gesamtbetrag:</span>
+                <span class="h4 mb-0 text-dark fw-bold">CHF <span id="cart-total">0.00</span></span>
+              </div>
+              <button id="checkout-btn" class="btn btn-dark w-100 py-3 mb-2" style="display: none;">
+                <i class="bi bi-credit-card me-2"></i>Zur Kasse gehen
+              </button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
 
 
@@ -96,7 +127,7 @@
 
             <div class="buy-box">
               <select id="variantSelect"></select>
-              <button class="button">In den Warenkorb</button>
+              <button id="productPageAddToCart" class="button">In den Warenkorb</button>
             </div>
 
           </div>
